@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "BPSwoc"
+  site-url: "https://josephrilling.github.io/BPSwoc"
+  description: "A python implementation of the ensemble method Bayesian Predictive Synthesis"
+  repo-branch: main
+  repo-url: "https://github.com/josephrilling/BPSwoc"
