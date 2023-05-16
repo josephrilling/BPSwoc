@@ -5,7 +5,7 @@
 ## Install
 
 ``` sh
-pip install pybps
+pip install BPS
 ```
 
 ## How to use

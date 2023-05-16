@@ -5,7 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://josephrilling.github.io',
                 'git_url': 'https://github.com/josephrilling/BPSwoc',
                 'lib_path': 'BPSwoc'},
-  'syms': { 'BPSwoc.bps': { 'BPSwoc.bps.BPS': ('bps.html#bps', 'BPSwoc/bps.py'),
-                            'BPSwoc.bps.BPS.__init__': ('bps.html#bps.__init__', 'BPSwoc/bps.py'),
-                            'BPSwoc.bps.BPS.fit': ('bps.html#bps.fit', 'BPSwoc/bps.py'),
-                            'BPSwoc.bps.BPS.predict': ('bps.html#bps.predict', 'BPSwoc/bps.py')}}}
+  'syms': { 'BPSwoc.BPS': { 'BPSwoc.BPS.BPS': ('bps.html#bps', 'BPSwoc/BPS.py'),
+                            'BPSwoc.BPS.BPS.__init__': ('bps.html#bps.__init__', 'BPSwoc/BPS.py'),
+                            'BPSwoc.BPS.BPS.fit': ('bps.html#bps.fit', 'BPSwoc/BPS.py'),
+                            'BPSwoc.BPS.BPS.predict': ('bps.html#bps.predict', 'BPSwoc/BPS.py')}}}

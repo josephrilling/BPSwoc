@@ -8,6 +8,7 @@ from scipy.linalg import cholesky
 import scipy.special as ss
 import pandas as pd
 import numpy as np
+import nbdev
 
 # %% ../nbs/00_BPS.ipynb 5
 class BPS:
