@@ -4,9 +4,6 @@
 __all__ = ['BPS']
 
 # %% ../nbs/00_BPS.ipynb 2
-from fastcore.utils import *
-
-
 import nbdev
 from nbdev.showdoc import *
 
@@ -17,7 +14,7 @@ import numpy as np
 
 # %% ../nbs/00_BPS.ipynb 4
 class BPS:
-    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version100"
+    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version101"
     def __init__(self, 
                  y:float, 
                  a_j, 
