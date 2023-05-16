@@ -8,5 +8,4 @@ d = { 'settings': { 'branch': 'main',
   'syms': { 'BPSwoc.bps': { 'BPSwoc.bps.BPS': ('bps.html#bps', 'BPSwoc/bps.py'),
                             'BPSwoc.bps.BPS.__init__': ('bps.html#bps.__init__', 'BPSwoc/bps.py'),
                             'BPSwoc.bps.BPS.fit': ('bps.html#bps.fit', 'BPSwoc/bps.py'),
-                            'BPSwoc.bps.BPS.predict': ('bps.html#bps.predict', 'BPSwoc/bps.py')},
-            'BPSwoc.core': {'BPSwoc.core.foo': ('core.html#foo', 'BPSwoc/core.py')}}}
+                            'BPSwoc.bps.BPS.predict': ('bps.html#bps.predict', 'BPSwoc/bps.py')}}}
