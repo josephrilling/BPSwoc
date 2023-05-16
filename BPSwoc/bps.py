@@ -19,14 +19,14 @@ class BPS:
     "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version"
     def __init__(self, 
                  y:float, #The true values
-                 a_j:"matrix", #Each agent's predicted mean
-                 A_j:"matrix", #Each agent's predicted variance
-                 n_j:"matrix", #Each agent's predicted degrees of freedom
-                 delta:"matrix", #Discount factor on [state, observation]
-                 m_0:"matrix", #Prior for coefficients of agent's
-                 C_0:"matrix", #Prior for covariance of agent's
-                 n_0:"matrix", #Prior for degrees of freedom
-                 s_0:"matrix", #Prior for observation variance
+                 a_j, #Each agent's predicted mean
+                 A_j, #Each agent's predicted variance
+                 n_j, #Each agent's predicted degrees of freedom
+                 delta, #Discount factor on [state, observation]
+                 m_0, #Prior for coefficients of agent's
+                 C_0, #Prior for covariance of agent's
+                 n_0, #Prior for degrees of freedom
+                 s_0, #Prior for observation variance
                  burn_in:int, #Iterations for burn in
                  mcmc_iter:int): #Iterations to keep
         self.y = y
