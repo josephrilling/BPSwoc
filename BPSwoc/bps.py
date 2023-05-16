@@ -8,6 +8,8 @@ from nbdev.showdoc import *
 from fastcore.utils import *
 
 
+import nbdev; nbdev.nbdev_export()
+
 
 from scipy.linalg import cholesky
 import scipy.special as ss
@@ -18,17 +20,17 @@ import numpy as np
 class BPS:
     "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version"
     def __init__(self, 
-                 y:float, #The true values
-                 a_j, #Each agent's predicted mean
-                 A_j, #Each agent's predicted variance
-                 n_j, #Each agent's predicted degrees of freedom
-                 delta, #Discount factor on [state, observation]
-                 m_0, #Prior for coefficients of agent's
-                 C_0, #Prior for covariance of agent's
-                 n_0, #Prior for degrees of freedom
-                 s_0, #Prior for observation variance
-                 burn_in:int, #Iterations for burn in
-                 mcmc_iter:int): #Iterations to keep
+                 y:float, 
+                 a_j, 
+                 A_j, 
+                 n_j, 
+                 delta, 
+                 m_0,
+                 C_0, 
+                 n_0, 
+                 s_0, 
+                 burn_in:int, 
+                 mcmc_iter:int): 
         self.y = y
         self.a_j = a_j
         self.A_j = A_j
