@@ -4,12 +4,11 @@
 __all__ = ['BPS']
 
 # %% ../nbs/00_BPS.ipynb 2
-from nbdev.showdoc import *
 from fastcore.utils import *
 
 
 import nbdev; nbdev.nbdev_export()
-
+from nbdev.showdoc import *
 
 from scipy.linalg import cholesky
 import scipy.special as ss
