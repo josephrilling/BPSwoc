@@ -17,7 +17,7 @@ import numpy as np
 
 # %% ../nbs/00_BPS.ipynb 4
 class BPS:
-    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version"
+    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version100"
     def __init__(self, 
                  y:float, 
                  a_j, 
