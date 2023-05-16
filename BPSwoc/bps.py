@@ -3,9 +3,15 @@
 # %% auto 0
 __all__ = ['BPS']
 
-# %% ../nbs/00_BPS.ipynb 4
+# %% ../nbs/00_BPS.ipynb 3
+from scipy.linalg import cholesky
+import scipy.special as ss
+import pandas as pd
+import numpy as np
+
+# %% ../nbs/00_BPS.ipynb 5
 class BPS:
-    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version101"
+    "Bayesian Predictive Synthesis: A latent ensemble forecasting method new version post-tutorial"
     def __init__(self, 
                  y:float, 
                  a_j, 
