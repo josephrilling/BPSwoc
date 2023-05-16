@@ -5,5 +5,5 @@ website:
   title: "BPSwoc"
   site-url: "https://josephrilling.github.io/BPSwoc"
   description: "A python implementation of the ensemble method Bayesian Predictive Synthesis"
-  repo-branch: main
+  repo-branch: gh-pages
   repo-url: "https://github.com/josephrilling/BPSwoc"

@@ -7,7 +7,7 @@ __all__ = ['BPS']
 from fastcore.utils import *
 
 
-import nbdev; nbdev.nbdev_export()
+import nbdev
 from nbdev.showdoc import *
 
 from scipy.linalg import cholesky
