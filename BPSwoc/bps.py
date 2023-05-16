@@ -4,9 +4,7 @@
 __all__ = ['BPS']
 
 # %% ../nbs/00_BPS.ipynb 2
-import nbdev
 from nbdev.showdoc import *
-
 from scipy.linalg import cholesky
 import scipy.special as ss
 import pandas as pd
